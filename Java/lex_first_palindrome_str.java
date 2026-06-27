@@ -7,9 +7,20 @@ public class lex_first_palindrome_str {
             freq[str.charAt(i) - 'a']++;
         }       
     }
-    public static void main(String[] args)
-    {
-        
 
+
+    // Cases to check whether a palindromic string can be formed or not
+
+    static boolean canMakePalindrome(int freq[], int len)
+    {
+        int count_odd = 0;
+
+        for (int i = 0; i < MAX_CHAR; i++)
+        {
+            if (freq[i] % 2 != 0)
+            {
+                
+            }
+        }
     }
 }
