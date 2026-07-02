@@ -13,12 +13,16 @@ func main() {
 	// 	fmt.Println(student2)
 	// 	fmt.Println(x)
 
-	var a string
-	var b int
-	var c bool
+	var (
+		a string
+		b int
+		c bool
+	)
+	const PI = 3.14
 
 	var x, y, z, u, v, w int = 1, 2, 3, 4, 5, 6
 
+	fmt.Println(PI)
 	fmt.Println(u)
 	fmt.Println(v)
 	fmt.Println(w)
@@ -29,5 +33,9 @@ func main() {
 	fmt.Println(a)
 	fmt.Println(b)
 	fmt.Println(c)
+
+	// Camel Case -> myVariableName
+	// MyVariableName -> Pascal Case
+	// Snake Case -> my_variable_name
 
 }
